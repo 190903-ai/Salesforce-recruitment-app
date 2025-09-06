@@ -1,18 +1,17 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Recruitment App
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A recruitment management application built on the Salesforce CRM Platform. This app streamlines the hiring process by allowing companies to post jobs, track applications, and manage candidate data within Salesforce.
 
-## How Do You Plan to Deploy Your Changes?
+# Features
+1. Job posting and management
+2. Candidate application tracking
+3. Automated workflows (Process Builder/Flows)
+4. Custom objects for Jobs, Candidates, and Applications
+5. Dashboards and reports for recruitment analytics
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+# Built With
+1. Salesforce CRM (Lightning Platform)
+2. Apex (for custom logic)
+3. Lightning Web Components (LWC)
+4. Process Builder / Flows for automation
+5. SFDX (Salesforce DX) for project setup and source tracking
