@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>Date_Closed__c &lt; NOW()</errorConditionFormula>
+    <errorDisplayField>Date_Closed__c</errorDisplayField>
+    <errorMessage>Date should be a future or today&apos;s date</errorMessage>
+</ValidationRule>

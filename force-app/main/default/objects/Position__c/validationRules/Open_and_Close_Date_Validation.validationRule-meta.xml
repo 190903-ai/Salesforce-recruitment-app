@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_and_Close_Date_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>Date_Opened__c &gt; Date_Closed__c</errorConditionFormula>
+    <errorDisplayField>Date_Closed__c</errorDisplayField>
+    <errorMessage>DAte should be after the open date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Open_position_Close_Date_Lapse_Email_Alert</fullName>
+        <ccEmails>khushivjain2003@gmail.com</ccEmails>
+        <description>Open position Close Date Lapse Email Alert</description>
+        <protected>true</protected>
+        <recipients>
+            <recipient>HR_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Open_Position_Close_Date_Lapse_Alert</template>
+    </alerts>
+    <alerts>
+        <fullName>Start_Date_has_Approached_and_Status_is_still_Open</fullName>
+        <ccEmails>khushivjain2003@gmail.com</ccEmails>
+        <description>Start Date has Approached and Status is still Open</description>
+        <protected>true</protected>
+        <recipients>
+            <recipient>VP_HR</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Start_Date_has_approached_and_status_is_in_open_stage</template>
+    </alerts>
+    <alerts>
+        <fullName>Start_Date_is_Approaching_and_Status_is_Open</fullName>
+        <ccEmails>khushivjain2003@gmail.com</ccEmails>
+        <description>Start Date is Approaching and Status is Open</description>
+        <protected>true</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Start_Date_Approaching_and_status_is_open</template>
+    </alerts>
+    <alerts>
+        <fullName>Start_Date_is_Approaching_in_One_Day_and_Status_is_in_open_stage</fullName>
+        <ccEmails>khushivjain2003@gmail.com</ccEmails>
+        <description>Start Date is Approaching in One Day and Status is in open stage</description>
+        <protected>true</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>HR_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Start_Date_is_Approaching_soon_and_status_is_still_open</template>
+    </alerts>
+</Workflow>
